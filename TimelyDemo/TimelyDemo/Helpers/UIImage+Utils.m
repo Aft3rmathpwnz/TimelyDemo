@@ -10,7 +10,7 @@
 
 @implementation UIImage (Utils)
 
-- (UIImage *)fixedOrientation {
+- (UIImage *)imageWithFixedOrientation {
     CGAffineTransform transform = CGAffineTransformIdentity;
     transform = CGAffineTransformTranslate(transform, 0, self.size.height);
     transform = CGAffineTransformRotate(transform, -M_PI_2);
@@ -22,8 +22,10 @@
     CGContextDrawImage(ctx, CGRectMake(0, 0, self.size.height, self.size.width), self.CGImage);
 
     CGImageRef cgImage = CGBitmapContextCreateImage(ctx);
-    
-    return [UIImage imageWithCGImage:cgImage];
+    UIImage *fixedImage = [UIImage imageWithCGImage:cgImage];
+    CGImageRelease(cgImage);
+    CGContextRelease(ctx);
+    return fixedImage;
 }
 
 @end

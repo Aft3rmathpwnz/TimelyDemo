@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_END
 - (void)recognizeTextFromImage:(UIImage *)image completion:(TimeEntryRecognitionCallback)completion {
     FIRVision *vision = [FIRVision vision];
     FIRVisionTextRecognizer *textRecognizer = [vision onDeviceTextRecognizer];
-    FIRVisionImage *visionImage = [[FIRVisionImage alloc] initWithImage:[image fixedOrientation]];
+    FIRVisionImage *visionImage = [[FIRVisionImage alloc] initWithImage:[image imageWithFixedOrientation]];
 
     [textRecognizer processImage:visionImage
                       completion:^(FIRVisionText *_Nullable result,

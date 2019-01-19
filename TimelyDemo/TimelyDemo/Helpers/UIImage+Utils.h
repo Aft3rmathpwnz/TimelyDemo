@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @return Transformed image that can be recognized further.
  */
-- (UIImage *)fixedOrientation;
+- (UIImage *)imageWithFixedOrientation;
 
 @end
 
