@@ -1,5 +1,5 @@
 # TimelyDemo
-Demo app demonstrating time entries table with new entries session adding using Google's MLKit.
+Demo app demonstrating time entries table with new entries sessional adding using Google's MLKit.
 Actually, MLKit's client OCR performs pretty poor for handwritten text, but mostly it stands for idea demonstration.
 
 To run app on your device you should:
