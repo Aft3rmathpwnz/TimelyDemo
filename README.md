@@ -1,2 +1,2 @@
 # TimelyDemo
-Demo app demonstrating time entries table with session new entries adding using Google's MLKit.
+Demo app demonstrating time entries table with new entries session adding using Google's MLKit.
