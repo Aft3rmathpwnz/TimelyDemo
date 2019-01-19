@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75701A850F42B3FFA4F06687 /* libPods-TimelyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC83279AF52EE000871B2A1B /* libPods-TimelyDemo.a */; };
+		F40F54A221F1DAC8002D3150 /* PhotoCaptureService.m in Sources */ = {isa = PBXBuildFile; fileRef = F40F54A121F1DAC8002D3150 /* PhotoCaptureService.m */; };
+		F45AD93221E2A7E100EC1215 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD93121E2A7E100EC1215 /* AppDelegate.m */; };
+		F45AD93B21E2A7E100EC1215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45AD93921E2A7E100EC1215 /* Main.storyboard */; };
+		F45AD93D21E2A7E100EC1215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45AD93C21E2A7E100EC1215 /* Assets.xcassets */; };
+		F45AD94021E2A7E100EC1215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45AD93E21E2A7E100EC1215 /* LaunchScreen.storyboard */; };
+		F45AD94321E2A7E200EC1215 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD94221E2A7E200EC1215 /* main.m */; };
+		F45AD94C21E2AA6300EC1215 /* HoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD94A21E2AA6300EC1215 /* HoursViewController.m */; };
+		F45AD95021E3825D00EC1215 /* TimeEntryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD94F21E3825D00EC1215 /* TimeEntryView.m */; };
+		F45AD95521E38EE900EC1215 /* TimeEntryViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD95421E38EE900EC1215 /* TimeEntryViewData.m */; };
+		F45AD95821E3A0B100EC1215 /* TimeEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD95721E3A0B100EC1215 /* TimeEntry.m */; };
+		F45AD95C21E3DEB600EC1215 /* TimeEntriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD95A21E3DEB600EC1215 /* TimeEntriesViewController.m */; };
+		F45AD95D21E3DEB600EC1215 /* TimeEntriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F45AD95B21E3DEB600EC1215 /* TimeEntriesViewController.xib */; };
+		F45AD96021E3E40600EC1215 /* TDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD95F21E3E40600EC1215 /* TDHelper.m */; };
+		F45AD96421E3E65E00EC1215 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD96321E3E65E00EC1215 /* UIColor+Utils.m */; };
+		F45AD96721E3EE2900EC1215 /* XibView.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD96621E3EE2900EC1215 /* XibView.m */; };
+		F45AD96B21E4AC3400EC1215 /* TimeEntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD96921E4AC3400EC1215 /* TimeEntryTableViewCell.m */; };
+		F45AD99E21EA564E00EC1215 /* DayMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F45AD99C21EA564E00EC1215 /* DayMenuView.xib */; };
+		F45AD9A121EA5E9100EC1215 /* DayMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD9A021EA5E9100EC1215 /* DayMenuView.m */; };
+		F45AD9A721EA60FB00EC1215 /* DayMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD9A521EA60FB00EC1215 /* DayMenuViewController.m */; };
+		F45AD9A821EA60FB00EC1215 /* DayMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F45AD9A621EA60FB00EC1215 /* DayMenuViewController.xib */; };
+		F45AD9AB21EA756100EC1215 /* DayMenuViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD9AA21EA756000EC1215 /* DayMenuViewData.m */; };
+		F45AD9AE21EA8D8C00EC1215 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F45AD9AD21EA8D8C00EC1215 /* GoogleService-Info.plist */; };
+		F45AD9B421EA933B00EC1215 /* AddTimeEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD9B221EA933B00EC1215 /* AddTimeEntryViewController.m */; };
+		F45AD9B521EA933B00EC1215 /* AddTimeEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F45AD9B321EA933B00EC1215 /* AddTimeEntryViewController.xib */; };
+		F45AD9BB21EB670300EC1215 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AD9BA21EB670300EC1215 /* UIImage+Utils.m */; };
+		F45D12DC21EE7EAC00C0E96E /* TimeEntriesService.m in Sources */ = {isa = PBXBuildFile; fileRef = F45D12DB21EE7EAC00C0E96E /* TimeEntriesService.m */; };
+		F45D12E421EE8C0E00C0E96E /* CBZVectorSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = F45D12DE21EE8C0D00C0E96E /* CBZVectorSplashView.m */; };
+		F45D12E521EE8C0E00C0E96E /* CBZSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = F45D12E121EE8C0D00C0E96E /* CBZSplashView.m */; };
+		F45D12E621EE8C0E00C0E96E /* CBZRasterSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = F45D12E321EE8C0E00C0E96E /* CBZRasterSplashView.m */; };
+		F45FF4AF21EFC2BF0098C749 /* TDSeparatorTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F45FF4AE21EFC2BF0098C749 /* TDSeparatorTableView.m */; };
+		F492643421EBB8E7004FC32A /* TimeEntryEditableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F492643321EBB8E7004FC32A /* TimeEntryEditableView.m */; };
+		F4AD142921F21BC900FF41B6 /* TimeEntryRecognitionService.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD142821F21BC900FF41B6 /* TimeEntryRecognitionService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BCCA13A46BCEE6A1EF06EE6 /* Pods-TimelyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimelyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimelyDemo/Pods-TimelyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EC83279AF52EE000871B2A1B /* libPods-TimelyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimelyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40F549F21F1C003002D3150 /* TimeEntryViewLayoutProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeEntryViewLayoutProtocol.h; sourceTree = "<group>"; };
+		F40F54A021F1DAC8002D3150 /* PhotoCaptureService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCaptureService.h; sourceTree = "<group>"; };
+		F40F54A121F1DAC8002D3150 /* PhotoCaptureService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCaptureService.m; sourceTree = "<group>"; };
+		F45AD92D21E2A7E100EC1215 /* TimelyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimelyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45AD93021E2A7E100EC1215 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F45AD93121E2A7E100EC1215 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F45AD93A21E2A7E100EC1215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45AD93C21E2A7E100EC1215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45AD93F21E2A7E100EC1215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F45AD94121E2A7E200EC1215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45AD94221E2A7E200EC1215 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F45AD94921E2AA6300EC1215 /* HoursViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoursViewController.h; sourceTree = "<group>"; };
+		F45AD94A21E2AA6300EC1215 /* HoursViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoursViewController.m; sourceTree = "<group>"; };
+		F45AD94E21E3825D00EC1215 /* TimeEntryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeEntryView.h; sourceTree = "<group>"; };
+		F45AD94F21E3825D00EC1215 /* TimeEntryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeEntryView.m; sourceTree = "<group>"; };
+		F45AD95321E38EE900EC1215 /* TimeEntryViewData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeEntryViewData.h; sourceTree = "<group>"; };
+		F45AD95421E38EE900EC1215 /* TimeEntryViewData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeEntryViewData.m; sourceTree = "<group>"; };
+		F45AD95621E3A0B100EC1215 /* TimeEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeEntry.h; sourceTree = "<group>"; };
+		F45AD95721E3A0B100EC1215 /* TimeEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeEntry.m; sourceTree = "<group>"; };
+		F45AD95921E3DEB600EC1215 /* TimeEntriesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeEntriesViewController.h; sourceTree = "<group>"; };
+		F45AD95A21E3DEB600EC1215 /* TimeEntriesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeEntriesViewController.m; sourceTree = "<group>"; };
+		F45AD95B21E3DEB600EC1215 /* TimeEntriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeEntriesViewController.xib; sourceTree = "<group>"; };
+		F45AD95E21E3E40600EC1215 /* TDHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDHelper.h; sourceTree = "<group>"; };
+		F45AD95F21E3E40600EC1215 /* TDHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDHelper.m; sourceTree = "<group>"; };
+		F45AD96221E3E65E00EC1215 /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		F45AD96321E3E65E00EC1215 /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		F45AD96521E3EE2900EC1215 /* XibView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XibView.h; sourceTree = "<group>"; };
+		F45AD96621E3EE2900EC1215 /* XibView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibView.m; sourceTree = "<group>"; };
+		F45AD96821E4AC3400EC1215 /* TimeEntryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeEntryTableViewCell.h; sourceTree = "<group>"; };
+		F45AD96921E4AC3400EC1215 /* TimeEntryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeEntryTableViewCell.m; sourceTree = "<group>"; };
+		F45AD99C21EA564E00EC1215 /* DayMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayMenuView.xib; sourceTree = "<group>"; };
+		F45AD99F21EA5E9100EC1215 /* DayMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayMenuView.h; sourceTree = "<group>"; };
+		F45AD9A021EA5E9100EC1215 /* DayMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayMenuView.m; sourceTree = "<group>"; };
+		F45AD9A421EA60FB00EC1215 /* DayMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayMenuViewController.h; sourceTree = "<group>"; };
+		F45AD9A521EA60FB00EC1215 /* DayMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayMenuViewController.m; sourceTree = "<group>"; };
+		F45AD9A621EA60FB00EC1215 /* DayMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayMenuViewController.xib; sourceTree = "<group>"; };
+		F45AD9A921EA756000EC1215 /* DayMenuViewData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayMenuViewData.h; sourceTree = "<group>"; };
+		F45AD9AA21EA756000EC1215 /* DayMenuViewData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayMenuViewData.m; sourceTree = "<group>"; };
+		F45AD9AD21EA8D8C00EC1215 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F45AD9B121EA933B00EC1215 /* AddTimeEntryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTimeEntryViewController.h; sourceTree = "<group>"; };
+		F45AD9B221EA933B00EC1215 /* AddTimeEntryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTimeEntryViewController.m; sourceTree = "<group>"; };
+		F45AD9B321EA933B00EC1215 /* AddTimeEntryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTimeEntryViewController.xib; sourceTree = "<group>"; };
+		F45AD9B921EB670300EC1215 /* UIImage+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		F45AD9BA21EB670300EC1215 /* UIImage+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		F45D12DA21EE7EAC00C0E96E /* TimeEntriesService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeEntriesService.h; sourceTree = "<group>"; };
+		F45D12DB21EE7EAC00C0E96E /* TimeEntriesService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeEntriesService.m; sourceTree = "<group>"; };
+		F45D12DE21EE8C0D00C0E96E /* CBZVectorSplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBZVectorSplashView.m; sourceTree = "<group>"; };
+		F45D12DF21EE8C0D00C0E96E /* CBZSplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBZSplashView.h; sourceTree = "<group>"; };
+		F45D12E021EE8C0D00C0E96E /* CBZRasterSplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBZRasterSplashView.h; sourceTree = "<group>"; };
+		F45D12E121EE8C0D00C0E96E /* CBZSplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBZSplashView.m; sourceTree = "<group>"; };
+		F45D12E221EE8C0D00C0E96E /* CBZVectorSplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBZVectorSplashView.h; sourceTree = "<group>"; };
+		F45D12E321EE8C0E00C0E96E /* CBZRasterSplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBZRasterSplashView.m; sourceTree = "<group>"; };
+		F45FF4AD21EFC2BF0098C749 /* TDSeparatorTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSeparatorTableView.h; sourceTree = "<group>"; };
+		F45FF4AE21EFC2BF0098C749 /* TDSeparatorTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSeparatorTableView.m; sourceTree = "<group>"; };
+		F492643221EBB8E7004FC32A /* TimeEntryEditableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeEntryEditableView.h; sourceTree = "<group>"; };
+		F492643321EBB8E7004FC32A /* TimeEntryEditableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeEntryEditableView.m; sourceTree = "<group>"; };
+		F4AD142721F21BC900FF41B6 /* TimeEntryRecognitionService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeEntryRecognitionService.h; sourceTree = "<group>"; };
+		F4AD142821F21BC900FF41B6 /* TimeEntryRecognitionService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeEntryRecognitionService.m; sourceTree = "<group>"; };
+		FABE5847C2EA4B2E00F142D4 /* Pods-TimelyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimelyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimelyDemo/Pods-TimelyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45AD92A21E2A7E100EC1215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75701A850F42B3FFA4F06687 /* libPods-TimelyDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DD201F12A3133A93DB05A70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC83279AF52EE000871B2A1B /* libPods-TimelyDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ADFB976BBAF8855DA3E84A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FABE5847C2EA4B2E00F142D4 /* Pods-TimelyDemo.debug.xcconfig */,
+				3BCCA13A46BCEE6A1EF06EE6 /* Pods-TimelyDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F45AD92421E2A7E100EC1215 = {
+			isa = PBXGroup;
+			children = (
+				F45AD92F21E2A7E100EC1215 /* TimelyDemo */,
+				F45AD92E21E2A7E100EC1215 /* Products */,
+				9ADFB976BBAF8855DA3E84A3 /* Pods */,
+				5DD201F12A3133A93DB05A70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F45AD92E21E2A7E100EC1215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45AD92D21E2A7E100EC1215 /* TimelyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45AD92F21E2A7E100EC1215 /* TimelyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F45AD93021E2A7E100EC1215 /* AppDelegate.h */,
+				F45AD93121E2A7E100EC1215 /* AppDelegate.m */,
+				F45FF4B221EFE64F0098C749 /* Models */,
+				F45FF4B121EFE6370098C749 /* Views */,
+				F45FF4B021EFE6030098C749 /* Controllers */,
+				F45D12D621EE794C00C0E96E /* Services */,
+				F45AD96121E3E53A00EC1215 /* Helpers */,
+				F45D12DD21EE8C0100C0E96E /* External */,
+				F45AD9AC21EA8D7300EC1215 /* Supporting Files */,
+			);
+			path = TimelyDemo;
+			sourceTree = "<group>";
+		};
+		F45AD96121E3E53A00EC1215 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F45AD95E21E3E40600EC1215 /* TDHelper.h */,
+				F45AD95F21E3E40600EC1215 /* TDHelper.m */,
+				F45AD96221E3E65E00EC1215 /* UIColor+Utils.h */,
+				F45AD96321E3E65E00EC1215 /* UIColor+Utils.m */,
+				F45AD9B921EB670300EC1215 /* UIImage+Utils.h */,
+				F45AD9BA21EB670300EC1215 /* UIImage+Utils.m */,
+				F45AD96521E3EE2900EC1215 /* XibView.h */,
+				F45AD96621E3EE2900EC1215 /* XibView.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F45AD9AC21EA8D7300EC1215 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F45AD93C21E2A7E100EC1215 /* Assets.xcassets */,
+				F45AD93E21E2A7E100EC1215 /* LaunchScreen.storyboard */,
+				F45AD9AD21EA8D8C00EC1215 /* GoogleService-Info.plist */,
+				F45AD94121E2A7E200EC1215 /* Info.plist */,
+				F45AD94221E2A7E200EC1215 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F45D12D621EE794C00C0E96E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F4B322A921F384310063A1B6 /* Network (Simulation) */,
+				F40F54A021F1DAC8002D3150 /* PhotoCaptureService.h */,
+				F40F54A121F1DAC8002D3150 /* PhotoCaptureService.m */,
+				F4AD142721F21BC900FF41B6 /* TimeEntryRecognitionService.h */,
+				F4AD142821F21BC900FF41B6 /* TimeEntryRecognitionService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F45D12DD21EE8C0100C0E96E /* External */ = {
+			isa = PBXGroup;
+			children = (
+				F45D12E821EE8C4700C0E96E /* CBZSplashView */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		F45D12E821EE8C4700C0E96E /* CBZSplashView */ = {
+			isa = PBXGroup;
+			children = (
+				F45D12E021EE8C0D00C0E96E /* CBZRasterSplashView.h */,
+				F45D12E321EE8C0E00C0E96E /* CBZRasterSplashView.m */,
+				F45D12DF21EE8C0D00C0E96E /* CBZSplashView.h */,
+				F45D12E121EE8C0D00C0E96E /* CBZSplashView.m */,
+				F45D12E221EE8C0D00C0E96E /* CBZVectorSplashView.h */,
+				F45D12DE21EE8C0D00C0E96E /* CBZVectorSplashView.m */,
+			);
+			path = CBZSplashView;
+			sourceTree = "<group>";
+		};
+		F45FF4B021EFE6030098C749 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F45AD94921E2AA6300EC1215 /* HoursViewController.h */,
+				F45AD94A21E2AA6300EC1215 /* HoursViewController.m */,
+				F45AD95921E3DEB600EC1215 /* TimeEntriesViewController.h */,
+				F45AD95A21E3DEB600EC1215 /* TimeEntriesViewController.m */,
+				F45AD95B21E3DEB600EC1215 /* TimeEntriesViewController.xib */,
+				F45AD9A421EA60FB00EC1215 /* DayMenuViewController.h */,
+				F45AD9A521EA60FB00EC1215 /* DayMenuViewController.m */,
+				F45AD9A621EA60FB00EC1215 /* DayMenuViewController.xib */,
+				F45AD9B121EA933B00EC1215 /* AddTimeEntryViewController.h */,
+				F45AD9B221EA933B00EC1215 /* AddTimeEntryViewController.m */,
+				F45AD9B321EA933B00EC1215 /* AddTimeEntryViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F45FF4B121EFE6370098C749 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F45AD93921E2A7E100EC1215 /* Main.storyboard */,
+				F45FF4AD21EFC2BF0098C749 /* TDSeparatorTableView.h */,
+				F45FF4AE21EFC2BF0098C749 /* TDSeparatorTableView.m */,
+				F45AD99F21EA5E9100EC1215 /* DayMenuView.h */,
+				F45AD9A021EA5E9100EC1215 /* DayMenuView.m */,
+				F45AD99C21EA564E00EC1215 /* DayMenuView.xib */,
+				F4B322A621F383B30063A1B6 /* Time Entry */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F45FF4B221EFE64F0098C749 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F45AD9A921EA756000EC1215 /* DayMenuViewData.h */,
+				F45AD9AA21EA756000EC1215 /* DayMenuViewData.m */,
+				F4B322A821F384130063A1B6 /* Time Entry */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4B322A621F383B30063A1B6 /* Time Entry */ = {
+			isa = PBXGroup;
+			children = (
+				F45AD96821E4AC3400EC1215 /* TimeEntryTableViewCell.h */,
+				F45AD96921E4AC3400EC1215 /* TimeEntryTableViewCell.m */,
+				F40F549F21F1C003002D3150 /* TimeEntryViewLayoutProtocol.h */,
+				F45AD94E21E3825D00EC1215 /* TimeEntryView.h */,
+				F45AD94F21E3825D00EC1215 /* TimeEntryView.m */,
+				F492643221EBB8E7004FC32A /* TimeEntryEditableView.h */,
+				F492643321EBB8E7004FC32A /* TimeEntryEditableView.m */,
+			);
+			path = "Time Entry";
+			sourceTree = "<group>";
+		};
+		F4B322A821F384130063A1B6 /* Time Entry */ = {
+			isa = PBXGroup;
+			children = (
+				F45AD95321E38EE900EC1215 /* TimeEntryViewData.h */,
+				F45AD95421E38EE900EC1215 /* TimeEntryViewData.m */,
+				F45AD95621E3A0B100EC1215 /* TimeEntry.h */,
+				F45AD95721E3A0B100EC1215 /* TimeEntry.m */,
+			);
+			path = "Time Entry";
+			sourceTree = "<group>";
+		};
+		F4B322A921F384310063A1B6 /* Network (Simulation) */ = {
+			isa = PBXGroup;
+			children = (
+				F45D12DA21EE7EAC00C0E96E /* TimeEntriesService.h */,
+				F45D12DB21EE7EAC00C0E96E /* TimeEntriesService.m */,
+			);
+			path = "Network (Simulation)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45AD92C21E2A7E100EC1215 /* TimelyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45AD94621E2A7E200EC1215 /* Build configuration list for PBXNativeTarget "TimelyDemo" */;
+			buildPhases = (
+				2553E2F70901DBE06760EEA7 /* [CP] Check Pods Manifest.lock */,
+				F45AD92921E2A7E100EC1215 /* Sources */,
+				F45AD92A21E2A7E100EC1215 /* Frameworks */,
+				F45AD92B21E2A7E100EC1215 /* Resources */,
+				59111BA6B7B93042406AE293 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimelyDemo;
+			productName = TimelyDemo;
+			productReference = F45AD92D21E2A7E100EC1215 /* TimelyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F45AD92521E2A7E100EC1215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Boris Shulyak";
+				TargetAttributes = {
+					F45AD92C21E2A7E100EC1215 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F45AD92821E2A7E100EC1215 /* Build configuration list for PBXProject "TimelyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F45AD92421E2A7E100EC1215;
+			productRefGroup = F45AD92E21E2A7E100EC1215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45AD92C21E2A7E100EC1215 /* TimelyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45AD92B21E2A7E100EC1215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45AD95D21E3DEB600EC1215 /* TimeEntriesViewController.xib in Resources */,
+				F45AD9AE21EA8D8C00EC1215 /* GoogleService-Info.plist in Resources */,
+				F45AD99E21EA564E00EC1215 /* DayMenuView.xib in Resources */,
+				F45AD9A821EA60FB00EC1215 /* DayMenuViewController.xib in Resources */,
+				F45AD94021E2A7E100EC1215 /* LaunchScreen.storyboard in Resources */,
+				F45AD93D21E2A7E100EC1215 /* Assets.xcassets in Resources */,
+				F45AD93B21E2A7E100EC1215 /* Main.storyboard in Resources */,
+				F45AD9B521EA933B00EC1215 /* AddTimeEntryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2553E2F70901DBE06760EEA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimelyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59111BA6B7B93042406AE293 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TimelyDemo/Pods-TimelyDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimelyDemo/Pods-TimelyDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45AD92921E2A7E100EC1215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45AD9A721EA60FB00EC1215 /* DayMenuViewController.m in Sources */,
+				F40F54A221F1DAC8002D3150 /* PhotoCaptureService.m in Sources */,
+				F45D12DC21EE7EAC00C0E96E /* TimeEntriesService.m in Sources */,
+				F45AD93221E2A7E100EC1215 /* AppDelegate.m in Sources */,
+				F45AD9B421EA933B00EC1215 /* AddTimeEntryViewController.m in Sources */,
+				F45AD95021E3825D00EC1215 /* TimeEntryView.m in Sources */,
+				F45AD9AB21EA756100EC1215 /* DayMenuViewData.m in Sources */,
+				F45D12E521EE8C0E00C0E96E /* CBZSplashView.m in Sources */,
+				F45AD9A121EA5E9100EC1215 /* DayMenuView.m in Sources */,
+				F45AD95521E38EE900EC1215 /* TimeEntryViewData.m in Sources */,
+				F45AD94C21E2AA6300EC1215 /* HoursViewController.m in Sources */,
+				F45AD96421E3E65E00EC1215 /* UIColor+Utils.m in Sources */,
+				F45AD95C21E3DEB600EC1215 /* TimeEntriesViewController.m in Sources */,
+				F45AD96021E3E40600EC1215 /* TDHelper.m in Sources */,
+				F45AD96B21E4AC3400EC1215 /* TimeEntryTableViewCell.m in Sources */,
+				F45AD94321E2A7E200EC1215 /* main.m in Sources */,
+				F45AD96721E3EE2900EC1215 /* XibView.m in Sources */,
+				F45AD9BB21EB670300EC1215 /* UIImage+Utils.m in Sources */,
+				F45D12E421EE8C0E00C0E96E /* CBZVectorSplashView.m in Sources */,
+				F4AD142921F21BC900FF41B6 /* TimeEntryRecognitionService.m in Sources */,
+				F45D12E621EE8C0E00C0E96E /* CBZRasterSplashView.m in Sources */,
+				F492643421EBB8E7004FC32A /* TimeEntryEditableView.m in Sources */,
+				F45FF4AF21EFC2BF0098C749 /* TDSeparatorTableView.m in Sources */,
+				F45AD95821E3A0B100EC1215 /* TimeEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F45AD93921E2A7E100EC1215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45AD93A21E2A7E100EC1215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F45AD93E21E2A7E100EC1215 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45AD93F21E2A7E100EC1215 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F45AD94421E2A7E200EC1215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F45AD94521E2A7E200EC1215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45AD94721E2A7E200EC1215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABE5847C2EA4B2E00F142D4 /* Pods-TimelyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = default;
+				DEVELOPMENT_TEAM = U7PCTYL683;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/TimelyDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aft3rmath.TimelyDemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F45AD94821E2A7E200EC1215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCCA13A46BCEE6A1EF06EE6 /* Pods-TimelyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_ACTIVITY_MODE = "";
+				DEVELOPMENT_TEAM = U7PCTYL683;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/TimelyDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aft3rmath.TimelyDemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45AD92821E2A7E100EC1215 /* Build configuration list for PBXProject "TimelyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45AD94421E2A7E200EC1215 /* Debug */,
+				F45AD94521E2A7E200EC1215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45AD94621E2A7E200EC1215 /* Build configuration list for PBXNativeTarget "TimelyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45AD94721E2A7E200EC1215 /* Debug */,
+				F45AD94821E2A7E200EC1215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F45AD92521E2A7E100EC1215 /* Project object */;
+}

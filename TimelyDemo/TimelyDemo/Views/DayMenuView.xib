@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DayMenuView">
+            <connections>
+                <outlet property="dateEarningsLabel" destination="aeG-Np-Eim" id="TJO-PQ-Bk6"/>
+                <outlet property="totalHoursLabel" destination="RVu-Li-LbV" id="iXD-UG-MX5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="csU-JC-fFm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Frs-Gd-hZI">
+                    <rect key="frame" x="20" y="6.5" width="154" height="51.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon, Jan 07, €202.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeG-Np-Eim">
+                            <rect key="frame" x="0.0" y="0.0" width="154" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <color key="textColor" red="0.21568627450980393" green="0.24313725490196078" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13h 30m" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVu-Li-LbV">
+                            <rect key="frame" x="0.0" y="27.5" width="154" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" red="0.2156862745" green="0.24313725489999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Dh-ss-6fn">
+                    <rect key="frame" x="319" y="14" width="36" height="36"/>
+                    <state key="normal" image="add"/>
+                    <connections>
+                        <action selector="addButtonTapped:" destination="-1" eventType="touchUpInside" id="Bq0-um-313"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Frs-Gd-hZI" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="6" id="2ZD-Nv-7dj"/>
+                <constraint firstItem="Frs-Gd-hZI" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="BGR-Mh-5Or"/>
+                <constraint firstItem="1Dh-ss-6fn" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="HJE-gP-f54"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="1Dh-ss-6fn" secondAttribute="trailing" constant="20" id="LLb-Jf-V3N"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="1Dh-ss-6fn" secondAttribute="bottom" constant="12" id="UTa-0w-M9z"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Frs-Gd-hZI" secondAttribute="bottom" constant="6" id="WKt-ZG-qo8"/>
+                <constraint firstItem="1Dh-ss-6fn" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="12" id="e5K-co-YyY"/>
+                <constraint firstItem="1Dh-ss-6fn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Frs-Gd-hZI" secondAttribute="trailing" constant="20" id="l2R-a3-SqI"/>
+                <constraint firstItem="Frs-Gd-hZI" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="qdn-0B-uPm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-182" y="112"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="add" width="36" height="36"/>
+    </resources>
+</document>
