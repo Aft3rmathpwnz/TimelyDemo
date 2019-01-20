@@ -8,3 +8,5 @@ To run app on your device you should:
 3) Add firebase to your project as described here: https://firebase.google.com/docs/ios/setup. Remember to add GoogleService-Info.plist file to project.
 
 ![](TimelyDemo_GIF.gif) ![](TimelyDemo2_GIF.gif)
+
+DISCLAIMER: I hereby declare that I do not own the rights to "Timely" trademark. All rights belong to the owner. No Copyright Infringement Intended.
